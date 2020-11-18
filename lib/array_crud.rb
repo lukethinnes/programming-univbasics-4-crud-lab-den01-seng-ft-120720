@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  big_array = [array, element]
-  big_array << "Jason"
+  big_array = [array]
+  big_array << element
 end
 
 def add_element_to_start_of_array(array, element)
