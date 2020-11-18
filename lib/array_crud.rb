@@ -18,7 +18,7 @@ end
 
 def remove_element_from_end_of_array(array)
   this_array = [array]
-  this_array.pop()
+  this_array.pop(array)
 end
 
 def remove_element_from_start_of_array(array)
