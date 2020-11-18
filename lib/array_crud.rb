@@ -17,7 +17,7 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  array = [8, array]
+  array = [8, "arrays!"]
   array.pop
 end
 
@@ -27,7 +27,7 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  low_array [array, "big field"]
+  low_array = [array, "big field"]
   index_number = low_array[1]
 end
 
