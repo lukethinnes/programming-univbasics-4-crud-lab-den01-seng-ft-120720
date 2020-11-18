@@ -27,7 +27,7 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  low_array = [array, "big field"]
+  low_array = [0, "big field",1,2,3,4,5]
   index_number = low_array[1]
 end
 
