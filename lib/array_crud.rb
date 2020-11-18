@@ -22,13 +22,13 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  high_array = [array]
-  high_array.shift()
+  array = [0,1,2,3,4,5,6,7,8,"arrays!"]
+  array.pop
 end
 
 def retrieve_element_from_index(array, index_number)
   low_array [array, index_number]
-  return low_array
+  index_number = low_array[1]
 end
 
 def retrieve_first_element_from_array(array)
