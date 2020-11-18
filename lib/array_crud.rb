@@ -32,12 +32,12 @@ def retrieve_element_from_index(array, index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  array_array = [array]
+  array_array = [array, "wow"]
   puts array_array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  move_array=[array, "Snow Dream"]
+  move_array=[array, "arrays!"]
   move_array[-1]
 end
 
